@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(166, 166, 184);
+    min-height: 100vh;
+    width: 100%;
+   
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+#searchImage{
+    margin-top: 20px;
+   text-align: center;
+    
+}
+#show-more-btn{
+    display: none;
+    margin: 0px auto 20px;
+}
+#searchResult{
+   width: 80%;
+   margin: 100px auto 50px auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr ;
+   grid-gap: 40px;
+    }
+    #searchResult img{
+        width: 100%;
+        height: 230px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
